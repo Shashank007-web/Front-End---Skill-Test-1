@@ -1,15 +1,25 @@
-This code is a simple implementation of a stopwatch using HTML, CSS, and JavaScript. Let's break down each part:
+Simple Stopwatch using HTML, CSS, and JavaScript
+Welcome to the Simple Stopwatch project! This project demonstrates the creation of a basic stopwatch using only HTML, CSS, and JavaScript.
 
-Variable Initialization: This line declares four variables: milliseconds, seconds, minutes, and hours, and initializes them to zero. These variables will keep track of the time elapsed in the stopwatch.
-Reference to HTML Elements: This line selects the HTML element with the class timer-display and assigns it to the variable timeRef. This element will be used to display the stopwatch time.
+Overview
+A stopwatch is a timekeeping device that counts time intervals. In this project, I've created a straightforward stopwatch application with the following features:
 
-Event Listeners: These event listeners listen for clicks on the "Start", "Pause", and "Reset" buttons respectively. When clicked, they execute the corresponding code block.
+Start: Begin timing intervals.
+Pause: Pause the stopwatch.
+Reset: Clear the stopwatch and start from zero.
+How to Use
+To use the stopwatch:
 
-Start Timer Functionality: When the "Start" button is clicked, this code block first clears any existing interval (clearInterval(int)) to prevent multiple intervals from running simultaneously. Then, it sets a new interval (setInterval) that calls the displayTimer function every 10 milliseconds.
+Clone the Repository: Clone this repository to your local machine using git clone.
+Open index.html: Navigate to the directory where you cloned the repository and open index.html in your web browser.
+Interact with the Stopwatch: Click the buttons to start, stop, or reset the stopwatch as needed.
+Project Structure
+The project consists of the following files:
 
-Pause Timer Functionality: When the "Pause" button is clicked, this code block clears the interval, effectively pausing the stopwatch.
-
-Reset Timer Functionality: When the "Reset" button is clicked, this code block clears the interval, resets all time variables to zero, and updates the display to show "00 : 00 : 00 : 000".
-
-Display Timer Functionality: This function increments the time variables (milliseconds, seconds, minutes, hours) appropriately and updates the display with the current time in the format "HH : MM : SS : MS" (hours, minutes, seconds, milliseconds).
-Overall, this code provides a basic implementation of a stopwatch with start, pause, and reset functionality using JavaScript's interval feature.
+index.html: The HTML file that contains the structure of the stopwatch interface.
+style.css: The CSS file that styles the stopwatch interface.
+script.js: The JavaScript file that provides functionality to the stopwatch.
+Technologies Used
+HTML: Used for structuring the webpage.
+CSS: Used for styling the elements of the stopwatch.
+JavaScript: Used for implementing the stopwatch functionality.

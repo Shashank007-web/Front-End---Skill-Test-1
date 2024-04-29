@@ -1,0 +1,148 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* Sets box-sizing to border-box for all elements */
+}
+
+body {
+    background-color: #ffffff;
+    /* Sets the background color of the body */
+}
+
+#mainHedding {
+    text-align: center;
+    /* Aligns text to the center */
+    position: absolute;
+    /* Sets the positioning to absolute */
+    top: 50px;
+    /* Positions the element 50px from the top */
+    left: 50%;
+    /* Positions the element horizontally at 50% of its containing element */
+    transform: translateX(-50%);
+    /* Translates the element -50% of its width horizontally */
+    top: 10%;
+    /* Overrides the previous 'top' property, positioning the element 10% from the top */
+    font-size: 60px;
+    /* Sets the font size */
+    color: #e08897;
+    /* Sets the text color */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Sets the font family */
+    font-weight: 1000;
+    /* Sets the font weight */
+}
+
+.container {
+    background-color: #270a2d;
+    /* Sets the background color of the container */
+    width: 50%;
+    /* Sets the width of the container */
+    height: 50%;
+    /* Sets the height of the container */
+    min-width: 500px;
+    /* Sets the minimum width of the container */
+    position: absolute;
+    /* Sets the positioning to absolute */
+    transform: translate(-50%, -50%);
+    /* Translates the element -50% horizontally and vertically */
+    top: 50%;
+    /* Positions the element 50% from the top */
+    left: 50%;
+    /* Positions the element horizontally at 50% of its containing element */
+    padding: 20px 0;
+    /* Sets padding for the container */
+    padding-bottom: 50px;
+    /* Sets bottom padding for the container */
+    border-radius: 25px;
+    /* Sets the border radius */
+    box-shadow: 0 0 20px rgba(29, 6, 34, 0.338);
+    /* Sets the box shadow */
+}
+
+.timer-display {
+    position: relative;
+    /* Sets the positioning to relative */
+    width: 92%;
+    /* Sets the width of the timer display */
+    left: 4%;
+    /* Positions the element 4% from the left */
+    top: 10%;
+    /* Positions the element 10% from the top */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Sets the font family */
+    color: #ffffff;
+    /* Sets the text color */
+    font-size: 60px;
+    /* Sets the font size */
+    font-weight: 1000;
+    /* Sets the font weight */
+    padding: 40px;
+    /* Sets padding for the timer display */
+    display: flex;
+    /* Displays the element as a flex container */
+    align-items: center;
+    /* Aligns items vertically */
+    justify-content: space-around;
+    /* Aligns items horizontally */
+    border-radius: 10px;
+    /* Sets the border radius */
+}
+
+.buttons {
+    width: 90%;
+    /* Sets the width of the buttons */
+    margin: 60px auto 0 auto;
+    /* Sets margin for the buttons */
+    display: flex;
+    /* Displays the buttons as flex items */
+    justify-content: space-around;
+    /* Aligns items horizontally */
+}
+
+.buttons button {
+    width: 120px;
+    /* Sets the width of the buttons */
+    height: 45px;
+    /* Sets the height of the buttons */
+    background-color: #4a3a4d;
+    /* Sets the background color of the buttons */
+    color: #fff;
+    /* Sets the text color of the buttons */
+    border: none;
+    /* Removes border from the buttons */
+    font-family: 'Poppins', sans-serif;
+    /* Sets the font family */
+    font-size: 18px;
+    /* Sets the font size */
+    border-radius: 25px;
+    /* Sets the border radius */
+    cursor: pointer;
+    /* Sets cursor to pointer */
+    outline: none;
+    /* Removes outline */
+    font-weight: bold;
+    /* Sets the font weight */
+}
+
+.buttons button:nth-last-child(2) {
+    background-color: #4a3a4d;
+    /* Sets the background color of the second last button */
+}
+
+.buttons button:nth-last-child(1) {
+    background-color: #4a3a4d;
+    /* Sets the background color of the last button */
+}
+
+.buttons button:hover {
+    background-color: #934da1;
+    /* Sets the background color of buttons on hover */
+}
+
+.buttons button:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+    /* Adds box shadow to buttons on hover */
+}
